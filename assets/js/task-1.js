@@ -4,25 +4,25 @@ function clickTask1() {
 
     switch (input) {
         case hari[0]:
-            alert("Besok Selasa");
+            alert("Besok adalah Selasa");
             break;
         case hari[1]:
-            alert("Besok Rabu");
+            alert("Besok adalah Rabu");
             break;
         case hari[2]:
-            alert("Besok Kamis");
+            alert("Besok adalah Kamis");
             break;
         case hari[3]:
-            alert("Besok Jumat");
+            alert("Besok adalah Jumat");
             break;
         case hari[4]:
-            alert("Besok Sabtu");
+            alert("Besok adalah Sabtu");
             break;
         case hari[5]:
-            alert("Besok Minggu");
+            alert("Besok adalah Minggu");
             break;
         case hari[6]:
-            alert("Besok Senin");
+            alert("Besok adalah Senin");
             break;
         default:
             alert("Hmmm ada yang salah ⛔");
