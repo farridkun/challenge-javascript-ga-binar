@@ -7,8 +7,16 @@
     background-color: #10002b;
 }
 
+.bg-light-secondary {
+    background-color: #e0aaff;
+}
+
 .text-light-primary {
     color: #e0aaff !important;
+}
+
+.text-light-secondary {
+    color: #5a189a !important;
 }
 
 .text-semi-light {
