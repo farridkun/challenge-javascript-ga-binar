@@ -1,15 +1,12 @@
 function clickTask3() {
-    let input = prompt("Masukan Angka Genap 〽");
+    let input = prompt("Masukan Angka Genap 🎢");
+    let angka = [];
 
-    if (!isNaN(input) && input >= 0) {
-        for (genap = 0; genap <= input; genap++) {
-            if (genap % 2 === 0) {
-                // document.getElementById("hasil-genap").innerHTML = genap++;
-            } else {
-                document.getElementById("hasil-genap").value = "Ini bukan angka genap ⛔";
-            }
+    for (genap = 1; genap <= input; genap++) {
+        if (genap % 2 == 0) {
+            angka.push(genap);
         }
-    } else {
-        alert("Input anda salah ⛔");
     }
+    document.getElementById('info-genap').innerText = "Hasil angka genap dari " + input + " 🧨";
+    document.getElementById('hasil-genap').innerText = "(0, " + angka.join(", ") + ")";
 }
