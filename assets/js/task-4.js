@@ -1,7 +1,10 @@
+// Pemanggilan Task 4
 function clickTask4() {
+    // Menentukan variabel
     let input = prompt("Masukan Angka Ganjil 🎡");
     let angka = [];
 
+    // Mengeksekusi value dari input
     for (ganjil = 1; ganjil <= input; ganjil++) {
         if (ganjil % 1 == 0) {
             angka.push(ganjil);

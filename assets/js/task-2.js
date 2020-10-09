@@ -1,8 +1,11 @@
+// Pemanggilan Task 2
 function clickTask2() {
+    // Menentukan variabel
     let nilai = ["A", "B", "C", "D", "Tidak Lulus"];
     let input = prompt("Silahkan masukan angka 💯");
     let output = document.getElementById("hasil-nilai");
 
+    // Mengeksekusi value dari input
     if (!isNaN(input) && input >= 0) {
         if (input <= 100 && input >= 90) {
             output.innerHTML = "Nilai anda adalah " + nilai[0] + " ✅";

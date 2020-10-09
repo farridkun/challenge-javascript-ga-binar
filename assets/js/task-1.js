@@ -1,8 +1,11 @@
+// Pemanggilan Task 1
 function clickTask1() {
+    // Menentukan variabel
     let hari = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"];
     let input = prompt("Sekarang Hari Apa Sih? 😱");
     let output = document.getElementById("hasil-hari");
 
+    // Mengeksekusi value dari input
     switch (input) {
         case hari[0]:
             output.innerHTML = "Besok adalah hari Selasa 👒";

@@ -1,7 +1,12 @@
+/* Untuk Global Custom */
+
 * {
     font-family: 'Inter', serif !important;
     overflow: hidden;
 }
+
+
+/* Untuk Warna Background */
 
 .bg-light-primary {
     background-color: #10002b;
@@ -10,6 +15,9 @@
 .bg-light-secondary {
     background-color: #e0aaff;
 }
+
+
+/* Untuk warna Text */
 
 .text-light-primary {
     color: #e0aaff !important;
@@ -27,6 +35,9 @@
     color: #5a189a !important;
 }
 
+
+/* Untuk warna Button */
+
 .btn-light-primary {
     color: #e0aaff !important;
     background-color: #9d4edd !important;
@@ -38,6 +49,9 @@
     background-color: #5a189a !important;
     border-color: #5a189a !important;
 }
+
+
+/* Untuk warna Table */
 
 .thead-light-primary {
     color: #e0aaff !important;
