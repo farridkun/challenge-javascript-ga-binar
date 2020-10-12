@@ -2,7 +2,7 @@
 function clickTask1() {
     // Menentukan variabel
     let hari = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"];
-    let input = prompt("Sekarang Hari Apa Sih? 😱");
+    let input = prompt("Sekarang Hari Apa Sih? 😱").toLowerCase();
     let output = document.getElementById("hasil-hari");
 
     // Mengeksekusi value dari input
