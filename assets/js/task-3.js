@@ -16,7 +16,7 @@ function clickTask3() {
             }
         }
     } else {
-        infoGenap.innerText = "";
+        infoGenap.style.display = "none";
         hasilGenap.innerText = "Inputan anda salah 😪";
     }
 }

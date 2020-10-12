@@ -16,7 +16,7 @@ function clickTask4() {
             }
         }
     } else {
-        infoGanjil.innerText = "";
+        infoGanjil.style.display = "none";
         hasilGanjil.innerText = "Inputan anda salah 😪";
     }
 }
