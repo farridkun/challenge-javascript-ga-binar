@@ -8,11 +8,11 @@ function clickTask3() {
 
     // Mengeksekusi value dari input
     if (input >= 2) {
-        for (genap = 1; genap <= input; genap++) {
+        for (genap = 0; genap <= input; genap++) {
             if (genap % 2 == 0) {
                 angka.push(genap);
                 infoGenap.innerText = "Hasil angka genap dari " + input + " 🧨";
-                hasilGenap.innerText = "(0, " + angka.join(", ") + ")";
+                hasilGenap.innerText = "(" + angka.join(", ") + ")";
             }
         }
     } else {

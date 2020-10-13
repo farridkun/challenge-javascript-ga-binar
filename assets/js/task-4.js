@@ -7,12 +7,14 @@ function clickTask4() {
     let hasilGanjil = document.getElementById("hasil-ganjil");
 
     // Mengeksekusi value dari input
-    if (input >= 0) {
-        for (ganjil = 1; ganjil <= input; ganjil++) {
-            if (ganjil % 1 == 0) {
+    if (input >= 2) {
+        for (ganjil = 0; ganjil <= input; ganjil++) {
+            if (ganjil % 2 == 0) {
+                infoGanjil.innerText = "Ini bukan angka ganjil 😮";
+            } else {
                 angka.push(ganjil);
                 infoGanjil.innerText = "Hasil angka ganjil dari " + input + " 🎑";
-                hasilGanjil.innerText = "(0, " + angka.join(", ") + ")";
+                hasilGanjil.innerText = "( " + angka.join(", ") + ")";
             }
         }
     } else {
