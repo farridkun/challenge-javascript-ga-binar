@@ -11,6 +11,7 @@ function clickTask4() {
         for (ganjil = 0; ganjil <= input; ganjil++) {
             if (ganjil % 2 == 0) {
                 infoGanjil.innerText = "Ini bukan angka ganjil 😮";
+                hasilGanjil.innerText = "";
             } else {
                 angka.push(ganjil);
                 infoGanjil.innerText = "Hasil angka ganjil dari " + input + " 🎑";
