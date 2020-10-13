@@ -14,7 +14,7 @@ function clickTask4() {
             } else {
                 angka.push(ganjil);
                 infoGanjil.innerText = "Hasil angka ganjil dari " + input + " 🎑";
-                hasilGanjil.innerText = "( " + angka.join(", ") + ")";
+                hasilGanjil.innerText = "(0, " + angka.join(", ") + ")";
             }
         }
     } else {
