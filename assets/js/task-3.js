@@ -13,9 +13,6 @@ function clickTask3() {
                 angka.push(genap);
                 infoGenap.innerText = "Hasil angka genap dari " + input + " 🧨";
                 hasilGenap.innerText = "(" + angka.join(", ") + ")";
-            } else {
-                infoGenap.innerText = "Ini bukan angka genap 😮";
-                hasilGenap.innerText = "";
             }
         }
     } else {
